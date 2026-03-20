@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  min-width: 220px;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: white;
+}
+
+.button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #1d4ed8;
+}
+
+.clearButton {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #6b7280;
+  color: white;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background: #4b5563;
+}
