@@ -38,3 +38,15 @@
 .clearButton:hover {
   background: #4b5563;
 }
+
+@media (max-width: 768px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .input,
+  .button,
+  .clearButton {
+    width: 100%;
+  }
+}

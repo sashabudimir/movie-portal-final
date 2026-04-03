@@ -23,3 +23,17 @@
   gap: 16px;
   margin-bottom: 28px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 12px 32px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .controls {
+    gap: 12px;
+  }
+}
